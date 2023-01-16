@@ -21,5 +21,7 @@ WebUI.openBrowser('nhuaquankiet.com')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('QK screenshot')
 
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 
