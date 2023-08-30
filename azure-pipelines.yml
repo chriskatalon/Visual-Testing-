@@ -17,5 +17,5 @@ steps:
 - task: katalonTask@1
   inputs:
     version: '8.6.6'
-    executeArgs: -projectPath="/Users/quan.trinh/git/Visual-Testing-/Visual-Testing-.prj" -retry=0 -testSuitePath="Test Suites/TS1 - Original" -browserType="Chrome (headless)" -executionProfile="default" -apiKey="f42f0470-19df-42a9-b9a5-641afaa1f1df" -orgID=482208 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -kobiton.authentication.serverUrl="https://api.kobiton.com/wd/hub" -kobiton.authentication.username="khang.dang" -kobiton.authentication.apiKey="5c42af1c-f2e0-468c-9fb6-eb385a3c7be9" testOps.baselineCollectionId=18'
+    executeArgs: -testSuitePath="Test Suites/TS5" -browserType="Chrome" -executionProfile="default" -apiKey="f42f0470-19df-42a9-b9a5-641afaa1f1df" -orgID=482208 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -kobiton.authentication.serverUrl="https://api.kobiton.com/wd/hub" -kobiton.authentication.username="khang.dang" -kobiton.authentication.apiKey="5c42af1c-f2e0-468c-9fb6-eb385a3c7be9" testOps.baselineCollectionId=18
 
