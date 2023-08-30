@@ -23,7 +23,7 @@ WebUI.setViewPortSize(1000, 600)
 
 WebUI.takeScreenshotAsCheckpoint('current_viewport', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToPosition(1000, 1200)
+WebUI.scrollToPosition(0, 600)
 
 WebUI.takeScreenshotAsCheckpoint('2nd_viewport')
 

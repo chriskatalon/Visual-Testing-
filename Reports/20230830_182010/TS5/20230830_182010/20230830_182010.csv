@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS5,Chrome 106.0.0.0,,,2023-08-30 18:20:13,2023-08-30 18:20:36,22.883s,PASSED
+,,,,,,,
+Test Cases/TC5,Chrome 106.0.0.0,,,2023-08-30 18:20:13,2023-08-30 18:20:36,22.477s,PASSED
+Start listener action : enableSauceLabs,Chrome 106.0.0.0,,,2023-08-30 18:20:13,2023-08-30 18:20:13,0.033s,PASSED
+"openBrowser(""https://www.dubaimarinayachtclub.com/"")",Chrome 106.0.0.0,,,2023-08-30 18:20:14,2023-08-30 18:20:24,10.697s,PASSED
+"setViewPortSize(1000, 600)",Chrome 106.0.0.0,,,2023-08-30 18:20:24,2023-08-30 18:20:25,0.440s,PASSED
+"println(""getViewportWidth: "" + getViewportWidth())",Chrome 106.0.0.0,,,2023-08-30 18:20:25,2023-08-30 18:20:25,0.275s,PASSED
+"println(""getViewportHeight: "" + getViewportHeight())",Chrome 106.0.0.0,,,2023-08-30 18:20:25,2023-08-30 18:20:25,0.288s,PASSED
+"println(""getViewportLeftPosition: "" + getViewportLeftPosition())",Chrome 106.0.0.0,,,2023-08-30 18:20:25,2023-08-30 18:20:25,0.053s,PASSED
+"println(""getViewportTopPosition: "" + getViewportTopPosition())",Chrome 106.0.0.0,,,2023-08-30 18:20:25,2023-08-30 18:20:25,0.073s,PASSED
+"takeScreenshotAsCheckpoint(""viewport1"", STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2023-08-30 18:20:25,2023-08-30 18:20:30,4.605s,PASSED
+"scrollToPosition(0, 600)",Chrome 106.0.0.0,,,2023-08-30 18:20:30,2023-08-30 18:20:30,0.051s,PASSED
+"takeScreenshotAsCheckpoint(""viewport2"", STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2023-08-30 18:20:30,2023-08-30 18:20:35,5.369s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2023-08-30 18:20:35,2023-08-30 18:20:36,0.176s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 106.0.0.0,,,2023-08-30 18:20:36,2023-08-30 18:20:36,0.001s,PASSED

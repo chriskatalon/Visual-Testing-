@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS4,Chrome 106.0.0.0,,,2023-08-30 18:18:59,2023-08-30 18:19:24,24.557s,PASSED
+,,,,,,,
+Test Cases/TC4,Chrome 106.0.0.0,,,2023-08-30 18:19:00,2023-08-30 18:19:24,24.141s,PASSED
+Start listener action : enableSauceLabs,Chrome 106.0.0.0,,,2023-08-30 18:19:00,2023-08-30 18:19:00,0.040s,PASSED
+"openBrowser(""https://www.dubaimarinayachtclub.com/"")",Chrome 106.0.0.0,,,2023-08-30 18:19:00,2023-08-30 18:19:11,10.651s,PASSED
+"setViewPortSize(1000, 600)",Chrome 106.0.0.0,,,2023-08-30 18:19:11,2023-08-30 18:19:11,0.482s,PASSED
+"takeScreenshotAsCheckpoint(""current_viewport"", STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2023-08-30 18:19:11,2023-08-30 18:19:17,5.570s,PASSED
+"scrollToPosition(0, 600)",Chrome 106.0.0.0,,,2023-08-30 18:19:17,2023-08-30 18:19:17,0.080s,PASSED
+"takeScreenshotAsCheckpoint(""2nd_viewport"")",Chrome 106.0.0.0,,,2023-08-30 18:19:17,2023-08-30 18:19:24,6.657s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2023-08-30 18:19:24,2023-08-30 18:19:24,0.251s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 106.0.0.0,,,2023-08-30 18:19:24,2023-08-30 18:19:24,0.002s,PASSED

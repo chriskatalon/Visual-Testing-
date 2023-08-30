@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS4" time="24.557" tests="1" failures="0" errors="0">
+   <testsuite name="TS4" tests="1" failures="0" errors="0" time="24.557" skipped="0" timestamp="2023-08-30 18:18:59" hostname="quan.trinh - 192.168.0.21" id="Test Suites/TS4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/quan.trinh/git/Visual-Testing-/Reports/20230830_181856/TS4/20230830_181856"/>
+         <property name="logFiles" value="/Users/quan.trinh/git/Visual-Testing-/Reports/20230830_181856/TS4/20230830_181856/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-current_viewport.png, keyes/keyes-2nd_viewport.png"/>
+         <property name="hostName" value="quan.trinh - 192.168.0.21"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="2762603f5a64c86dcf9dd83d9bfa4409"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC4" time="24.141" classname="Test Cases/TC4" status="PASSED">
+         <system-out><![CDATA[2023-08-30 18:19:00 - [TEST_CASE][PASSED] - Test Cases/TC4: Test Cases/TC4
+
+2023-08-30 18:19:00 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-08-30 18:19:00 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-08-30 18:19:00 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-08-30 18:19:00 - [TEST_STEP][PASSED] - openBrowser("https://www.dubaimarinayachtclub.com/"): Browser is opened with url: 'https://www.dubaimarinayachtclub.com/'
+
+2023-08-30 18:19:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-30 18:19:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 18:19:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.dubaimarinayachtclub.com/'
+
+2023-08-30 18:19:11 - [TEST_STEP][PASSED] - setViewPortSize(1000, 600): Viewport is set to new size with width = 1000 and height = 600
+
+2023-08-30 18:19:11 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1000 and height = 600
+
+2023-08-30 18:19:11 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport", STOP_ON_FAILURE): Taking screenshot successfully
+
+2023-08-30 18:19:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-30 18:19:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-current_viewport.png]]
+
+2023-08-30 18:19:17 - [TEST_STEP][PASSED] - scrollToPosition(0, 600): Browser is scrolled to position x = 0, y = 600
+
+2023-08-30 18:19:17 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 600
+
+2023-08-30 18:19:17 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("2nd_viewport"): Taking screenshot successfully
+
+2023-08-30 18:19:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-30 18:19:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-2nd_viewport.png]]
+
+2023-08-30 18:19:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-30 18:19:24 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-30 18:19:24 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-08-30 18:19:24 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-30 18:18:59 - [TEST_SUITE][PASSED] - TS4: Test Cases/TC4]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
