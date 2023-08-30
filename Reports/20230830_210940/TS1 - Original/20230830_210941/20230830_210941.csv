@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1 - Original,,,,2023-08-30 21:09:45,2023-08-30 21:09:50,4.531s,FAILED
+,,,,,,,
+Test Cases/TC1 - Google.com,,,,2023-08-30 21:09:45,2023-08-30 21:09:50,4.122s,FAILED
+"openBrowser("""")",,,,2023-08-30 21:09:46,2023-08-30 21:09:50,3.757s,FAILED
